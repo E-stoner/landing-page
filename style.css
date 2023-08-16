@@ -1,0 +1,477 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: ;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "montserrat";
+    font-weight: 600;
+}
+p{
+    font-family: sans-serif;
+}
+h1,h2{
+    font-size: 35px;
+}
+
+/* NAVIGATION BAR */
+.Nav-Introduction{
+    padding: 0 15%;
+    background-image: url("image/bentley.png");
+    object-fit: center/cover no-repeat;
+}
+.navigation{
+    background: transparent;
+   display: flex;
+   justify-content: space-between;
+}
+.brand{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand-text{
+    color: #ffffff;
+    margin: 0;
+    font-size: 25px;
+}
+.brand-sub-text{
+    color: yellowgreen;
+    margin: 0;
+    font-size: 12px;
+    text-align: left;
+}
+.toggler{
+    display: none;
+}
+.nav-item{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+}
+.nav-item a{
+    color: #fff;
+    padding: 0 1rem;
+    transition: all 0.2s ease-in-out;
+}
+.nav-item a:hover{
+    color: grey;
+    padding: 0 1.2rem;
+}
+.contact-us{
+    border: 1px solid yellowgreen;
+    background: transparent;
+    margin: 0;
+}
+.heading{
+    padding: 5em;
+    padding-top: 0;
+    
+}
+.big-head{
+    color: #fff;
+    padding: 2.5em;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+.dropbtn{
+    color: antiquewhite;
+    cursor: pointer;
+}
+.dropdown-content{
+    display: none;
+    overflow: hidden;
+}
+.dropdown-content a{
+    display: block;
+}
+
+/* INTRODUCTION */
+#introduction{
+    background: #fff;
+    padding: 0 15%;
+}
+.short-intro{
+    margin: 0 auto;
+    padding: 3rem 6rem;
+    text-align: left;
+}
+.lit-img{
+    display: flex;
+    justify-content: space-between;
+}
+.lit-spe{
+    margin-top: 5em;
+    font-size: 30px;
+    /* padding: 0 3rem; */
+    text-align: left;
+}
+/* APPROACH OUR CLIENT */
+#tailored-approach{
+    padding: 0 0 0 15%;
+    margin-top: -18rem;
+    background: darkslategrey; 
+}
+.approach-head{
+    padding-left: 3.5rem;
+    padding-right: 17%;
+    padding-top: 19rem;
+    color: #fff;
+    font-size: 40px;
+}
+.approach-exp{
+    display: flex;
+    justify-content: space-between;
+}
+.approach-des{
+    color: #fff;
+    text-align: left;
+    padding: 0 1.5rem 0 0;
+    letter-spacing: 1.5px;
+}
+.approach-img{
+   display: flex;
+   place-self: right;
+}
+/* PROCESS AND ATTORNEYS */
+.process-and-attorneys{
+    padding-top: 2rem;
+}
+.img-and-process{
+    display: flex;
+}
+.imgs{
+  display: inline-flex;
+  height: 350px;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+.process{
+    padding: 5.5rem;
+    background: yellowgreen;
+}
+.button-container{
+    text-align: right;
+}
+.process-head, .process-sub-head, .process-desc{
+    color: #fff;
+    text-align: left;
+}
+.attorneys{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+}
+.attorneys-desc{
+    padding-left: 15%;
+    text-align: left;
+}
+.attorneys-body{
+    padding-right: 1.5rem;
+}
+.attorneys-img{
+    display: flex;
+    gap:1em;
+}
+.attorneys-name, .attorneys-post{
+    margin: 0;
+    text-align: left;
+}
+.attorneys-post{
+    color: goldenrod;
+}
+/* LOCATION */
+.location{
+    background: darkslategrey;
+    margin: 3rem 0;
+}
+.big-location{
+    padding-top: 3.5rem;
+    color: #fff;
+    margin-bottom: 0;
+    letter-spacing: 1.5px;
+}
+.short-desc{
+    color: #fff;
+    margin-top: 0;
+    padding: 0 33rem;
+}
+.location-img{
+    display: inline-flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.city{
+    color:#fff;
+    text-align: left;
+    margin-top: 0;
+}
+/* CONTACT US */
+.contact-box-flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20%;
+    /* gap: 3rem; */
+}
+.contact-box-flex1{
+    display: grid;
+    gap: 1rem;
+    width: 45%;
+}
+.contact-input{
+    border: none;
+    border-bottom: 1px solid #aaecaa;
+}
+.contact-box-flex2{
+    padding: 0 20%;
+}
+.contact-input1{
+    display: block;
+    border: none;
+    border-bottom: 1px solid rgb(162, 248, 162);
+    width: 100%;
+    margin: 1rem 0;
+}
+.contact-input2{
+    border: none;
+    border-bottom: 1px solid rgb(162, 248, 162);
+}
+.contact-btn{
+    background-color: #bebe13;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid transparent;
+}
+/* FOOTER */
+#footer{
+    background: darkslategrey;
+    margin-top: 3rem;
+    padding: 0 15%;
+}
+.footer-desc{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* padding: 0 15%; */
+    text-align: left;
+}
+.footer-logo{
+    align-self: center;
+}
+.footer-link{
+    margin-top: 2.5rem;
+}
+.link{
+    color: darkgoldenrod;
+    margin-bottom: 0;
+}
+.footer-inc{
+    color:#fff;
+    text-align: left;
+    padding-bottom: 1.5rem;
+    /* padding: 0 15% 1.5rem; */
+}
+
+/* IPAD AND TABLET (880PX - 1200PX) */
+@media screen and (max-width: 1050px) {
+    .Nav-Introduction{
+        padding: 0 5%;
+    }
+    .navigation{
+        display: block;
+    }
+    .toggler{
+        display: flex;
+    }
+    .nav-item{
+        display: block;
+        text-align: left;
+        line-height: 2.0;
+        padding-left: 1rem;
+        height: 0;
+        overflow: hidden;
+    }
+    .show-links{
+        height: 12rem;
+    }
+    .nav-item a{
+        color: #fff;
+        padding: 1rem 0;
+    }
+    .nav-item a:hover{
+        padding: 0;
+    }
+    .big-head{
+        padding: 1rem;
+        width: 60vw;
+    }
+}
+
+/* INTRODUCTION */
+
+@media screen and (max-width: 1130px) {
+    #introduction{
+        padding: 0 5%;
+    }
+    .short-intro{
+        text-align: center;
+        margin-bottom: 0;
+        padding: 1rem 1.5rem;
+    }
+    .lit-img{
+        display: block;
+    }
+    .lit-spe{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 0;
+        padding: 1rem 1.5rem;
+    }
+    .lit-pic{
+       width: 75vw;
+    }
+}
+/* APPROACH OUR CLIENT */
+@media screen and (max-width: 1130px) {
+    #tailored-approach{
+        padding: 0 5%;
+    }
+    .approach-head{
+        font-size: 40px;
+        padding: 0;
+        padding-top: 19rem;
+    }
+    .approach-exp{
+        display: block;
+        justify-content: space-between;
+    }
+    .approach-des{
+        text-align: center;
+        padding: 1.5rem;
+    }
+    
+    .appr-img{
+        width: 75vw;
+        position: relative;
+        left: 3.5rem;
+    }
+}
+/*  PROCESS AND ATTORNEYS */
+@media screen and (max-width: 1130px) {
+    .img-and-process{
+        display: block;
+    }
+    .imgs{
+        display: inline-flex;
+        position: static;
+    }
+    .process-img{
+        width: 30vw;
+    }
+    .process{
+        padding: 1.5rem;
+        background: #fff;
+    }
+    .button-container{
+        text-align: right;
+    }
+    .process-head, .process-sub-head, .process-desc{
+        text-align: center;
+        color: #000;
+    }
+    .attorneys{
+        display: block;
+        padding-top: 0;
+    }
+    .attorneys-desc{
+        padding-left: 5%;
+        text-align: center;
+    }
+    .attorneys-body{
+        padding-right: 0;
+    }
+    .attorneys-img{
+        display: inline-flex;
+        gap: 0.5rem;
+    }
+    .img-attorney{
+        width: 30vw;
+    }
+    .attorneys-name, .attorneys-post{
+        margin: 0;
+        text-align: center;
+    }
+}
+/* LOCATION */
+@media screen and (max-width: 1130px) {
+    .big-location{
+        padding-top: 2.5rem;
+    }
+    .short-desc{
+        padding: 0;
+    }
+    .location-img{
+        gap: 0.5rem;
+        margin-top: 0;
+    }
+    .location-site{
+        width: 30vw;
+    }
+    .city{
+        text-align: center;
+    }
+}
+/*  CONTACT US  */
+@media screen and (max-width: 1130px) {
+    .contact-box-flex{
+        display: block;
+        padding: 0 5%;
+    }
+    .contact-box-flex1{
+        width: 100%;
+    }
+    .contact-box-flex2{
+        padding: 0 5%;
+    }
+    .contact-input1{
+        width: 100%;
+    }
+    .contact-input2{
+        border: none;
+        border-bottom: 1px solid rgb(162, 248, 162);
+        margin: 0 0 1rem 0;
+    }
+}
+/*  FOOTER */
+@media screen and (max-width: 1130px) {
+    #footer{
+        padding: 0 5%;
+    }
+    .footer-desc{
+        display: block;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .footer-logo{
+        padding-top: 1.5rem;
+    }
+    .footer-link{
+        margin-top: 1.5rem;
+    }
+    .footer-inc{
+        text-align: center;
+        padding: 1.5rem 5%;
+    }
+}
