@@ -5,13 +5,16 @@ body{
     box-sizing: border-box;
     text-align: center;
     line-height: 1.5;
-    letter-spacing: ;
 }
 ul{
     list-style-type: none;
 }
 a{
     text-decoration: none;
+    color: grey;
+}
+a:hover{
+    color:lightgray
 }
 h1,h2,h3,h4,h5,h6{
     font-family: "montserrat";
@@ -86,12 +89,22 @@ h1,h2{
     letter-spacing: 3px;
 }
 .dropbtn{
+    border: 1px solid #fff;
+    padding: 1rem;
+    background: transparent;
     color: antiquewhite;
     cursor: pointer;
 }
+.dropbtn:hover{
+    background: #fff;
+    color: #000;
+}
 .dropdown-content{
-    display: none;
+    height: 0;
     overflow: hidden;
+}
+.show-content{
+    height: 72px;
 }
 .dropdown-content a{
     display: block;
@@ -248,11 +261,19 @@ h1,h2{
     border: none;
     border-bottom: 1px solid rgb(162, 248, 162);
 }
+/* .contact-input3{
+    text-align: left;
+    padding: 0;
+}
+.contact-label{
+
+} */
 .contact-btn{
     background-color: #bebe13;
     color: #fff;
     padding: 0.5rem 1.5rem;
     border: 1px solid transparent;
+    margin-top: 1.5rem;
 }
 /* FOOTER */
 #footer{
@@ -315,7 +336,7 @@ h1,h2{
     }
     .big-head{
         padding: 1rem;
-        width: 60vw;
+        width: 50vw;
     }
 }
 
@@ -358,14 +379,14 @@ h1,h2{
         justify-content: space-between;
     }
     .approach-des{
-        text-align: center;
+        text-align: left;
         padding: 1.5rem;
     }
     
     .appr-img{
         width: 75vw;
         position: relative;
-        left: 3.5rem;
+        left: 1.5rem;
     }
 }
 /*  PROCESS AND ATTORNEYS */
@@ -377,8 +398,9 @@ h1,h2{
         display: inline-flex;
         position: static;
     }
-    .process-img{
-        width: 30vw;
+
+    .process-img1{
+        display: none;
     }
     .process{
         padding: 1.5rem;
@@ -387,20 +409,21 @@ h1,h2{
     .button-container{
         text-align: right;
     }
-    .process-head, .process-sub-head, .process-desc{
+    .process-head,.process-sub-head, .process-desc{
         text-align: center;
         color: #000;
+        padding:0 1.5rem;
     }
     .attorneys{
         display: block;
         padding-top: 0;
     }
     .attorneys-desc{
-        padding-left: 5%;
+        padding: 0 5%;
         text-align: center;
     }
     .attorneys-body{
-        padding-right: 0;
+        padding:0 1.5rem;
     }
     .attorneys-img{
         display: inline-flex;
@@ -412,6 +435,9 @@ h1,h2{
     .attorneys-name, .attorneys-post{
         margin: 0;
         text-align: center;
+    }
+    .attorneys-post{
+        font-size: 12px;
     }
 }
 /* LOCATION */
@@ -431,6 +457,8 @@ h1,h2{
     }
     .city{
         text-align: center;
+        font-size: 16px;
+        font-weight: 200;
     }
 }
 /*  CONTACT US  */
@@ -461,7 +489,6 @@ h1,h2{
     }
     .footer-desc{
         display: block;
-        justify-content: space-between;
         text-align: center;
     }
     .footer-logo{
@@ -469,6 +496,11 @@ h1,h2{
     }
     .footer-link{
         margin-top: 1.5rem;
+        text-align: center;
+    }
+    .footer-ul{
+        text-align: center;
+        padding-left: 0;
     }
     .footer-inc{
         text-align: center;
